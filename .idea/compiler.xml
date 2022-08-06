@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fline-tools-json" />
+        <module name="fline-tools-http" />
+        <module name="log-sample" />
+        <module name="fline-tools-poi" />
+        <module name="fline-tools-extra" />
+        <module name="fline-log-web" />
+        <module name="fline-tools-crypto" />
+        <module name="fline-tools-core" />
+        <module name="fline-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fline-core" target="1.8" />
+      <module name="fline-log-web" target="1.8" />
+      <module name="fline-tools" target="1.8" />
+      <module name="fline-tools-core" target="1.8" />
+      <module name="fline-tools-crypto" target="1.8" />
+      <module name="fline-tools-extra" target="1.8" />
+      <module name="fline-tools-http" target="1.8" />
+      <module name="fline-tools-json" target="1.8" />
+      <module name="fline-tools-poi" target="1.8" />
+      <module name="log-sample" target="1.8" />
+      <module name="smell" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fline-core" options="-parameters" />
+      <module name="fline-log-web" options="-parameters" />
+      <module name="fline-tools-core" options="-parameters" />
+      <module name="fline-tools-crypto" options="-parameters" />
+      <module name="fline-tools-extra" options="-parameters" />
+      <module name="fline-tools-http" options="-parameters" />
+      <module name="fline-tools-json" options="-parameters" />
+      <module name="fline-tools-poi" options="-parameters" />
+      <module name="log-sample" options="-parameters" />
+      <module name="smell" options="" />
+    </option>
+  </component>
+</project>

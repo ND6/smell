@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.smell.core.config.CoreConfig,\
+    com.smell.core.config.JacksonConfig
