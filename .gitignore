@@ -30,7 +30,6 @@ bin/
 
 #Custom
 /.idea/
-/.idea/libraries/
 **/target/
 
 # Compiled class file
