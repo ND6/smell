@@ -43,7 +43,7 @@
       <module name="fline-tools-json" options="-parameters" />
       <module name="fline-tools-poi" options="-parameters" />
       <module name="log-sample" options="-parameters" />
-      <module name="smell" options="" />
+      <module name="smell" options="-parameters" />
     </option>
   </component>
 </project>
