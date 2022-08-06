@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BeanUtilSample/BeanUtilSample.iml" filepath="$PROJECT_DIR$/BeanUtilSample/BeanUtilSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/fline-log-web/fline-log-web.iml" filepath="$PROJECT_DIR$/fline-log-web/fline-log-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/fline-tools/fline-tools-core/fline-tools-core.iml" filepath="$PROJECT_DIR$/fline-tools/fline-tools-core/fline-tools-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/fline-tools/fline-tools-crypto/fline-tools-crypto.iml" filepath="$PROJECT_DIR$/fline-tools/fline-tools-crypto/fline-tools-crypto.iml" />

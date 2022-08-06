@@ -14,10 +14,12 @@
         <module name="fline-tools-extra" />
         <module name="fline-log-web" />
         <module name="fline-tools-crypto" />
+        <module name="BeanUtilSample" />
         <module name="fline-tools-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BeanUtilSample" target="1.8" />
       <module name="fline-core" target="1.8" />
       <module name="fline-log-web" target="1.8" />
       <module name="fline-tools" target="1.8" />
@@ -33,6 +35,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BeanUtilSample" options="-parameters" />
       <module name="fline-core" options="-parameters" />
       <module name="fline-log-web" options="-parameters" />
       <module name="fline-tools-core" options="-parameters" />
