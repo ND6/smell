@@ -1,3 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.smell.log.web.controller.TestController,\
     com.smell.log.web.controller.LoglevelController,\
     com.smell.log.web.config.LogLevelConfiguration

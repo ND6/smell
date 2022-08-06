@@ -1,13 +1,15 @@
 package com.smell.log.web.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import org.springframework.boot.logging.LogLevel;
+import lombok.experimental.Accessors;
 
 /**
  * 表示 LoggingSystem 日志配置的dto类
- *
  */
 @Data
+@Accessors(chain = true)
+@AllArgsConstructor
 public class LoggerConfiguration {
 
     private int id;
@@ -20,12 +22,12 @@ public class LoggerConfiguration {
     /**
      * 日志配置级别
      */
-    private LogLevel configuredLevel;
+    private String configuredLevel;
 
     /**
      * 有效级别。
      * The effective level is the assigned levelInt and if null, a levelInt is
      * inherited form a parent.
      */
-    private LogLevel effectiveLevel;
+    private String effectiveLevel;
 }

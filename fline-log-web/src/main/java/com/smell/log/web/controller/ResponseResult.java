@@ -1,4 +1,4 @@
-package com.smell.core;
+package com.smell.log.web.controller;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package com.smell.core;
+package com.smell.log.web.controller;
 
 /**
  * 常见常量定义

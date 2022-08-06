@@ -24,7 +24,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>RELEASE</version>
+            <version>2.7.2</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -32,10 +32,8 @@
             <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.smell</groupId>
-            <artifactId>fline-core</artifactId>
-            <version>0.5-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
         </dependency>
     </dependencies>
 
